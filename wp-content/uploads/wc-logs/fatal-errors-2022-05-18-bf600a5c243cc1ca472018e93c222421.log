@@ -1,0 +1,216 @@
+2022-05-18T04:38:06+00:00 CRITICAL syntax error, unexpected token "}" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 91
+
+2022-05-18T04:38:13+00:00 CRITICAL syntax error, unexpected token "}" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 91
+
+2022-05-18T04:38:37+00:00 CRITICAL syntax error, unexpected token "}" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 91
+
+2022-05-18T04:56:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "output" not found or invalid function name in C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action()
+#2 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action()
+#3 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#5 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wordpress\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output()
+#7 C:\OpenServer\domains\localhost\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#8 C:\OpenServer\domains\localhost\wordpress\wp-admin\post.php(206): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php на строке 307
+
+2022-05-18T05:01:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed in C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php:135
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(307): {closure}()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action()
+#4 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\localhost\wordpress\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output()
+#8 C:\OpenServer\domains\localhost\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#9 C:\OpenServer\domains\localhost\wordpress\wp-admin\post.php(206): require('C:\\OpenServer\\d...')
+#10 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 135
+
+2022-05-18T05:27:16+00:00 CRITICAL Unmatched '}' в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 133
+
+2022-05-18T05:27:17+00:00 CRITICAL Unmatched '}' в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 133
+
+2022-05-18T05:27:17+00:00 CRITICAL Unmatched '}' в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 133
+
+2022-05-18T05:27:21+00:00 CRITICAL Unmatched '}' в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 133
+
+2022-05-18T05:33:24+00:00 CRITICAL syntax error, unexpected token "public", expecting end of file в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 90
+
+2022-05-18T05:33:33+00:00 CRITICAL syntax error, unexpected identifier "add_action" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 140
+
+2022-05-18T05:41:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "upload_product__image" not found or invalid function name in C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action()
+#2 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action()
+#3 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#5 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wordpress\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output()
+#7 C:\OpenServer\domains\localhost\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#8 C:\OpenServer\domains\localhost\wordpress\wp-admin\post.php(206): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php на строке 307
+
+2022-05-18T05:46:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "media_upload_new" not found or invalid function name in C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action()
+#2 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action()
+#3 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#5 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wordpress\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output()
+#7 C:\OpenServer\domains\localhost\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#8 C:\OpenServer\domains\localhost\wordpress\wp-admin\post.php(206): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php на строке 307
+
+2022-05-18T06:05:52+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_order_item_add_action_buttons() in C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php:75
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-settings.php(555): include()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\wordpress\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\localhost\wordpress\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\wordpress\wp-admin\post.php(12): require_once('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 75
+
+2022-05-18T06:05:52+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_order_item_add_action_buttons() in C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php:75
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-settings.php(555): include()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\localhost\wordpress\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\localhost\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#4 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 75
+
+2022-05-18T06:06:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "woocommerce_order_item_add_action_buttons()" not found or invalid function name in C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action()
+#2 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action()
+#3 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#5 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wordpress\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output()
+#7 C:\OpenServer\domains\localhost\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#8 C:\OpenServer\domains\localhost\wordpress\wp-admin\post.php(206): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php на строке 307
+
+2022-05-18T06:48:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "save_image" not found or invalid function name in C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action()
+#2 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action()
+#3 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#5 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wordpress\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output()
+#7 C:\OpenServer\domains\localhost\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#8 C:\OpenServer\domains\localhost\wordpress\wp-admin\post.php(206): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php на строке 307
+
+2022-05-18T07:24:24+00:00 CRITICAL syntax error, unexpected identifier "upload_image", expecting "(" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 75
+
+2022-05-18T07:24:25+00:00 CRITICAL syntax error, unexpected identifier "upload_image", expecting "(" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 75
+
+2022-05-18T07:24:26+00:00 CRITICAL syntax error, unexpected identifier "upload_image", expecting "(" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 75
+
+2022-05-18T08:32:00+00:00 CRITICAL syntax error, unexpected token "}" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 78
+
+2022-05-18T08:32:00+00:00 CRITICAL syntax error, unexpected token "}" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 78
+
+2022-05-18T08:32:01+00:00 CRITICAL syntax error, unexpected token "}" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 78
+
+2022-05-18T10:06:52+00:00 CRITICAL Cannot redeclare Add_button() (previously declared in C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php:172) в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 180
+
+2022-05-18T10:06:54+00:00 CRITICAL Cannot redeclare Add_button() (previously declared in C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php:172) в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 180
+
+2022-05-18T10:06:54+00:00 CRITICAL Cannot redeclare Add_button() (previously declared in C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php:172) в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 180
+
+2022-05-18T14:53:49+00:00 CRITICAL Uncaught TypeError: filesize(): Argument #1 ($filename) must be of type string, WP_Error given in C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php:91
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php(91): filesize()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(307): add_image()
+#2 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action()
+#5 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\localhost\wordpress\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output()
+#9 C:\OpenServer\domains\localhost\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#10 C:\OpenServer\domains\localhost\wordpress\wp-admin\post.php(206): require('C:\\OpenServer\\d...')
+#11 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 91
+
+2022-05-18T14:55:17+00:00 CRITICAL Uncaught TypeError: filesize(): Argument #1 ($filename) must be of type string, WP_Error given in C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php:91
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php(91): filesize()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(307): add_image()
+#2 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action()
+#5 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\localhost\wordpress\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output()
+#9 C:\OpenServer\domains\localhost\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#10 C:\OpenServer\domains\localhost\wordpress\wp-admin\post.php(206): require('C:\\OpenServer\\d...')
+#11 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 91
+
+2022-05-18T14:55:39+00:00 CRITICAL Uncaught TypeError: filesize(): Argument #1 ($filename) must be of type string, WP_Error given in C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php:88
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php(88): filesize()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(307): add_image()
+#2 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action()
+#5 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\localhost\wordpress\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output()
+#9 C:\OpenServer\domains\localhost\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#10 C:\OpenServer\domains\localhost\wordpress\wp-admin\post.php(206): require('C:\\OpenServer\\d...')
+#11 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 88
+
+2022-05-18T15:02:06+00:00 CRITICAL syntax error, unexpected token "if" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 82
+
+2022-05-18T15:02:07+00:00 CRITICAL syntax error, unexpected token "if" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 82
+
+2022-05-18T15:02:07+00:00 CRITICAL syntax error, unexpected token "if" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 82
+
+2022-05-18T15:02:42+00:00 CRITICAL syntax error, unexpected token "isset", expecting "(" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 82
+
+2022-05-18T15:03:26+00:00 CRITICAL syntax error, unexpected variable "$_POST", expecting "(" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 82
+
+2022-05-18T15:05:00+00:00 CRITICAL syntax error, unexpected token "{", expecting "(" в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 82
+
+2022-05-18T15:06:57+00:00 CRITICAL Uncaught TypeError: unlink(): Argument #1 ($filename) must be of type string, WP_Error given in C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php:99
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php(99): unlink()
+#1 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(307): add_image()
+#2 C:\OpenServer\domains\localhost\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action()
+#5 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#7 C:\OpenServer\domains\localhost\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\localhost\wordpress\wp-admin\includes\template.php(1395): WC_Meta_Box_Product_Data::output()
+#9 C:\OpenServer\domains\localhost\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#10 C:\OpenServer\domains\localhost\wordpress\wp-admin\post.php(206): require('C:\\OpenServer\\d...')
+#11 {main}
+  thrown в C:\OpenServer\domains\localhost\wordpress\wp-content\themes\storefront\functions.php на строке 99
+
